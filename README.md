@@ -1,15 +1,17 @@
-Projet OCR - Reconnaissance Optique de Caractères
-La reconnaissance optique de caractères (OCR) est une technique qui permet à un système informatique de lire et de stocker automatiquement du texte à partir d'une image ou d'un document, sans nécessiter de saisie manuelle.
+*Projet OCR
+Ce projet est une implémentation d'une solution de reconnaissance optique de caractères (OCR) en utilisant différentes bibliothèques et outils en Python.
 
-*Applications de l'OCR
-Reconnaissance des passeports dans les aéroports
-Automatisation de la saisie de données
-Reconnaissance des plaques d'immatriculation
-Extraction des informations de carte de visite dans une liste de contacts
-Conversion de documents manuscrits en images électroniques
-Création de PDF consultables
-Création de fichiers audio à partir de texte
-*Bibliothèques OCR en Python
-Pytesseract
-Keras-OCR
-EasyOCR
+*Objectif du Projet
+L'objectif de ce projet est de développer une application capable d'extraire des informations textuelles à partir d'images et de les utiliser pour diverses tâches, telles que la reconnaissance de documents, la saisie automatisée de données, etc.
+
+*Fonctionnalités
+Charger une image à partir du disque via OpenCV.
+Extraire le texte de l'image en utilisant les bibliothèques OCR telles que Pytesseract
+Afficher le texte OCR extrait sur l'écran.
+Conversion de texte en audio à l'aide de la bibliothèque gTTS.
+Extraction de texte ciblé dans un document en utilisant des expressions régulières.
+*Installation et Configuration
+Téléchargez le projet depuis GitHub.
+Installez les dépendances en utilisant pip install -r requirements.txt.
+Installez le moteur Tesseract en suivant les instructions ici.
+Ajoutez le chemin du moteur Tesseract aux variables d'environnement de votre système.
